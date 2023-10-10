@@ -1,0 +1,1 @@
+<?php echo '<h1>403! Erişim yetkiniz bulunmamaktadır.</h1>'; ?>
