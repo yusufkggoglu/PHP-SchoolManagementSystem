@@ -95,7 +95,7 @@ if (isset($_POST['searchByClass']) && isset($_POST['class_id'])) {
                                     <?php
                                     $temp = $teacher->findClassName($rs->id);
                                     if ($temp) {
-                                        echo $temp['class'];
+                                        echo $temp['class_name'];
                                     } else {
                                         echo "-";
                                     } ?>
@@ -104,7 +104,7 @@ if (isset($_POST['searchByClass']) && isset($_POST['class_id'])) {
                                     <?php
                                     $temp = $teacher->findLessonName($rs->id);
                                     if ($temp) {
-                                        echo $temp['class'];
+                                        echo $temp['lesson_name'];
                                     } else {
                                         echo "-";
                                     } ?>
