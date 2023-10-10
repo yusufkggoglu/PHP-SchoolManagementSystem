@@ -1,10 +1,10 @@
 <?php
 class Db
 {
-	private $host = "localhost";
-	private $username = "root";
-	private $password = "";
-	private $database = "siber_vatan_yetkinlik_merkezi";
+	private $host = "db";
+	private $username = "php_docker";
+	private $password = "password";
+	private $database = "php_docker";
 
 	public function connect()
 	{

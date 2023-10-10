@@ -32,7 +32,7 @@ class User extends Db
 					$_SESSION["id"] = $db->id;
 					$_SESSION["username"] = $db->username;
 					$_SESSION["role"] = $db->role;
-					header("location:login/index.php");
+					header("location:views/login/index.php");
 				}
 			}
 			return 1;

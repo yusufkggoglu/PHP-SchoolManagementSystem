@@ -1,6 +1,6 @@
 <?php
-require('../database/connect.php');
-include('../database/user.class.php');
+require('database/connect.php');
+include('database/user.class.php');
 
 $user = new User();
 if (isset($_POST['login'])) {
@@ -25,11 +25,11 @@ if (isset($_POST['login'])) {
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="assets/plugins/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="views/assets/plugins/fontawesome-free/css/all.min.css">
   <!-- icheck bootstrap -->
-  <link rel="stylesheet" href="assets/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+  <link rel="stylesheet" href="views/assets/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="assets/dist/css/adminlte.min.css">
+  <link rel="stylesheet" href="views/assets/dist/css/adminlte.min.css">
 </head>
 
 <body class="hold-transition login-page">
@@ -44,8 +44,8 @@ if (isset($_POST['login'])) {
         </div>
       <?php } ?>
       <div class="card-body login-card-body">
-        <p class="login-box-msg">Sign in to start your session</p>
-        <form action="" method="post">
+      <p class="login-box-msg">Yusufcan Küçükgökgözoğlu</p>
+        <p class="login-box-msg">Proje bitiş tarihi : 10.10.2023 </p>        <form action="" method="post">
           <div class="input-group mb-3">
             <input type="text" class="form-control" name="username" placeholder="username">
             <div class="input-group-append">
@@ -73,11 +73,11 @@ if (isset($_POST['login'])) {
   <!-- /.login-box -->
 
   <!-- jQuery -->
-  <script src="assets/plugins/jquery/jquery.min.js"></script>
+  <script src="views/assets/plugins/jquery/jquery.min.js"></script>
   <!-- Bootstrap 4 -->
-  <script src="assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="views/assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
   <!-- AdminLTE App -->
-  <script src="assets/dist/js/adminlte.min.js"></script>
+  <script src="views/assets/dist/js/adminlte.min.js"></script>
 </body>
 
 </html>

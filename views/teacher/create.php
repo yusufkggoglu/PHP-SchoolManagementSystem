@@ -49,7 +49,7 @@ if (isset($_POST['addTeacher'])) {
                 </div>
                 <div class="form-group">
                     <label>Şifre</label>
-                    <input type="text" class="form-control" name="password" placeholder="...">
+                    <input type="password" class="form-control" name="password" placeholder="...">
                 </div>
             </div>
             <div class="card-footer">
